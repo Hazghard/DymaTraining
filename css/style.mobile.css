@@ -1,0 +1,66 @@
+/* CLASS */
+.title {
+  text-align: center;
+}
+/* VP + HEADER */
+header {
+  flex-direction: column;
+  line-height: 1rem;
+}
+header ul {
+  flex-flow: column wrap;
+  text-align: center;
+  margin-top: 1rem;
+}
+header ul li {
+  padding: 0.5rem;
+  border-bottom: 1px dotted #ddd;
+}
+.vp-content h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.vp-content p {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+/* OFFER */
+.offer {
+  padding: 3rem 1rem 5rem 1rem;
+  text-align: center;
+}
+.offer-list {
+  display: flex;
+  flex-flow: column wrap;
+}
+/* WHO */
+.who {
+  flex-direction: column-reverse;
+}
+.who-content-img {
+  min-height: 300px;
+}
+.who-content-text {
+  padding: 2rem;
+}
+/* TESTIMONIALS */
+.testimonials-elem {
+  flex-direction: column;
+}
+.testimonials-elem-reverse {
+  flex-direction: column-reverse;
+}
+.testimonials-elem-profil {
+  text-align: center;
+}
+.testimonials-elem-profil img {
+  display: block;
+  margin: 1rem auto;
+}
+/* CONTACT */
+.contact {
+  padding: 3rem 1rem 3rem 1rem;
+}
+.contact-form-button {
+  margin: 3rem auto 0 auto;
+}
