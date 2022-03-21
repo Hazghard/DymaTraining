@@ -91,7 +91,7 @@ header a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url(/img/frame.jpg) center center/cover;
+  background: url(./img/frame.jpg) center center/cover;
 }
 .vp-content {
   max-width: 800px;
@@ -146,7 +146,7 @@ header a {
 }
 .who-content-img {
   flex: 1;
-  background: url(/img/team.jpg) center center/cover;
+  background: url(./img/team.jpg) center center/cover;
 }
 .who-content-img img {
   width: 100%;
